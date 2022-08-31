@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import {Pressable, Dimensions, Text, StyleSheet, SafeAreaView, TextInput, TouchableOpacity,Button } from 'react-native';
 
-const Picture = ({ navigation }) => {
+const Scanner = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.screenContainer}>
         <Text style={styles.baseText}>
-            Picture View
+            Scanner View
         </Text>
 
 
         <Pressable
                 style={styles.buttonStyle}
                 onPress={() => navigation.navigate('Dashboard')}>
-                <Text style={styles.buttonTextStyle}>Picture</Text>
+                <Text style={styles.buttonTextStyle}>Scanner</Text>
             </Pressable>
     </SafeAreaView>
     );
@@ -60,4 +60,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default Picture;
+export default Scanner;

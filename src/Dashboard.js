@@ -11,8 +11,8 @@ const Dashboard = ({ navigation }) => {
 
 <Pressable
                 style={styles.buttonStyle}
-                onPress={() => navigation.navigate('Picture')}>
-                <Text style={styles.buttonTextStyle}>Picture</Text>
+                onPress={() => navigation.navigate('Scanner')}>
+                <Text style={styles.buttonTextStyle}>Scanner</Text>
             </Pressable>
             <Pressable
                 style={styles.buttonStyle}
